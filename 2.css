@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 2cm;
+}
+.content span{
+    margin: 0px;
+    padding: 0px;
+    font-size: 200%;
+    display: table-cell;
+    font-weight: lighter;
+}
+span{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%,50%{
+        color: rgba(50,50,50,0.2);
+        box-shadow: 0px 0px 10px rgba(100,100,100,1),
+                    0px 0px 20px rgba(100,100,100,0.9),
+                    0px 0px 30px rgba(100,100,100,0.8),
+                    0px 0px 40px rgba(100,100,100,0.7),
+                    0px 0px 80px rgba(100,100,100,0.6),
+                    0px 0px 120px rgba(100,100,100,0.5),
+                    0px 0px 160px rgba(100,100,100,0.4),
+                    0px 0px 200px rgba(100,100,100,0.3),
+                    0px 0px 300px rgba(100,100,100,0.2);
+        
+    }
+    51%,100%{
+        color: whitesmoke;
+        box-shadow: 0px 0px 10px rgba(255,255,255,1),
+                    0px 0px 20px rgba(255,255,255,0.9),
+                    0px 0px 30px rgba(255,255,255,0.8),
+                    0px 0px 40px rgba(255,255,255,0.7),
+                    0px 0px 80px rgba(255,255,255,0.6),
+                    0px 0px 120px rgba(255,255,255,0.5),
+                    0px 0px 160px rgba(255,255,255,0.4),
+                    0px 0px 200px rgba(255,255,255,0.3),
+                    0px 0px 300px rgba(255,255,255,0.2);
+    }
+}

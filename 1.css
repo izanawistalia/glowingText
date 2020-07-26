@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 2cm;
+}
+.content span{
+    margin: 0px;
+    padding: 0px;
+    font-size: 200%;
+    display: table-cell;
+    font-weight: lighter;
+}
+span{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%,70%{
+        color: rgba(50,50,50,0.2);
+        text-shadow: 1px 1px 10px rgba(10,10,10,0.4);
+    }
+    71%,100%{
+        color: whitesmoke;
+        text-shadow: 1px 1px 10px white;
+    }
+}
