@@ -1,5 +1,5 @@
 # glowingText
-Text Glowing effect with HTML, CSS and JavaScript.
+Text Glowing effect with HTML, CSS.
 <br>
 There are 4 different glowing text effects.<br>
 1.The whole text keeps blinking.
